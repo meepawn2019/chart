@@ -119,7 +119,7 @@ function App() {
       <div className="wrapper">
         {<Bubble options={options} data={chartData} />}
         <div  className="year-input">
-          <button style={{marginRight: "12px"}} onClick={handleAutoIncrement}>TEST</button>
+          <button style={{marginRight: "12px"}} onClick={handleAutoIncrement}>Play</button>
           <div style={{ flexGrow: 1 }} ref={yearSliderRef}>
             <input
               type={"range"}
