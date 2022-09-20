@@ -69,7 +69,10 @@ button:focus-visible {
   }
 }
 
-/* canvas{
-  width: 1000px !important;
-  height: 700px !important;
-} */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
