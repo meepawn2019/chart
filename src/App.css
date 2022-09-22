@@ -43,8 +43,50 @@
 .wrapper {
   height: 700px;
   width: 1000px;
+  position: relative;
 }
 
 .year-input {
   display: flex;
+}
+
+#chartjs-chart-id {
+  height: 700px;
+  width: 1000px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.bubble-top-arrow::after {
+  content: "";
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.bubble-top-arrow::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+
+.bubble-left-arrow::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent transparent transparent black;
 }

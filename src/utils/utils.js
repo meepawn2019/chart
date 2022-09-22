@@ -35,7 +35,7 @@ export const numFormatter = new Intl.NumberFormat('en-GB', {
   compactDisplay: "short",
 })
 
-export const transformData = (data, addedYears = 0, maxRadius) => {
+export const transformData = (data, addedYears = 0, maxRadius, selectedCountry) => {
   const testData = data.filter((e) => e["Country Name"] && e["Country Code"]);
   const obj = {};
   for (const entry of testData) {
